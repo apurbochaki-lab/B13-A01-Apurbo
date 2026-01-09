@@ -215,4 +215,42 @@
     width: 20px;
 }
 
+/* Think Design Section */
+#think {
+    margin-top: 120px;
+}
+
+#think .think-bg {
+    /* border: 1px solid red; */
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    justify-items: center;
+    text-align: center;
+}
+
+.items-container .items-header {
+    padding-top: 80px;
+    color: #001931;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.items-container .times-info {
+    margin-top: 16px;
+    color: #627382;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.items-container .cta {
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 80px;
+}
+
+
 
