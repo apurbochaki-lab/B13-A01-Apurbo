@@ -48,6 +48,7 @@
     margin: 24px 0;
     border-radius: 4px;
     border: none;
+    cursor: pointer;
 }
 .btn:hover {
     background-color: rgb(74, 177, 100);
@@ -123,7 +124,7 @@
     color: #627382;
 }
 
-/* Note Section */
+/* Card Section */
 
 #note .note-box {
     display: flex;
@@ -252,5 +253,49 @@
     padding-bottom: 80px;
 }
 
+/* Footer Section */
+#footer {
+    margin-top: 120px;
+    background-color: #001931;
+}
 
+#footer .footer-container {
+    /* border: 1px solid red; */
+    /* 1360/1600=0.85 => 85% */
+    width: 85%; 
+    max-width: 1360px;
+    margin: 0 auto;
+}
 
+.footer-container .footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+}
+
+.footer-right p {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.footer-right .footer-icon img {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.footer-bottom hr {
+    margin: 80px 0 30px;
+    /* Why hr color not working? */
+    color: #e5e7eb7a;
+}
+
+.footer-bottom p {
+    color: white;
+    text-align: center;
+    padding-bottom: 30px
+}
