@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Import Google Font */
 .inter-font {
   font-family: "Inter", sans-serif;
@@ -43,4 +49,60 @@
     border-radius: 4px;
     border: none;
 }
-    
+.btn:hover {
+    background-color: rgb(74, 177, 100);
+    box-shadow: 2px 2px 10px 5px red;
+}
+
+/* Hero Banner Section */
+#hero {
+    background: url('./assets/hero-bg.png');
+    height: 674px;
+    background-size: cover; 
+}
+
+.hero-container {
+    padding-top: 115px;
+}
+
+#hero .hero-container .hero-heading {
+    text-align: center;
+}
+
+.hero-heading .hero-btn {
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    background-color: white;
+    padding: 8px 12px;
+    border-radius: 1000px;
+    border: none;
+    margin-bottom: 16px;
+}
+
+.hero-heading .text1 {
+    color: white;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.hero-heading .text2 {
+    color: #30B868;
+}
+
+.hero-container .hero-heading p {
+    margin-top: 16px;
+    color: white;
+    line-height: 24px;
+}
+
+.hero-container .hero-button {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+/* Notes Section */
+
+
+
